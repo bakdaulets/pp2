@@ -15,7 +15,7 @@ str1.printString()
 class Shape:
     def area(self):
         return 0
-class square():
+class square(Shape):
     def __init__(self,length):
         self.length1 = length
 
@@ -28,7 +28,7 @@ class rectangle(shape):
         self.length = length
         self.width = width
 
-    def area(seld):
+    def area(self):
         return self.length * self.width
     
 #4
@@ -41,7 +41,7 @@ class Point:
     def move(self, x, y):
         self.x += x
         self.y += y
-    def dist(self):
+    def dist(self, delf):
         return ((self.x - delf.x)**2 + (self.y- delf.y)**2)**0.5
     
 #5

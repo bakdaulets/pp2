@@ -67,7 +67,7 @@ def has_33(nums):
     else:
         return False
 list1 = [1,3,3]
-print(has_33(lst))
+print(has_33(list1))
 
 #8
 def volume(R):
