@@ -1,4 +1,4 @@
 import re
-txt = "abb"
+txt = "abb abbbb abbb ab"
 x = re.findall(r'a[b]*', txt)
 print(x)
